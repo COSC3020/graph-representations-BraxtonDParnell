@@ -15,6 +15,9 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+The runtime complexity of this implementation is going to be O(n^2). It depends on the number of vertices in the graph.
+The runtime complexity is O(n^2) because we have to check each value in a nested array. The length of each array is dependent on how many vertices there are present in the graph.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
