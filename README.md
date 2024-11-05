@@ -15,6 +15,12 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+The runtime complexity of this implementation is going to be O(n^2). It depends on the number of vertices in the graph.
+The runtime complexity is O(n^2) because we have to check each value in a nested array. The length of each array is dependent on how many vertices there are present in the graph.
+I used https://www.geeksforgeeks.org/convert-adjacency-matrix-to-adjacency-list-representation-of-graph/ to help me write the function.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
